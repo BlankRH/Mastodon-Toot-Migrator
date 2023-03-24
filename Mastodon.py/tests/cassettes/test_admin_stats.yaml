@@ -1,0 +1,201 @@
+interactions:
+- request:
+    body: '{"instance_accounts": {"domain": "chitter.xyz"}, "instance_media_attachments":
+      {"domain": "chitter.xyz"}, "instance_reports": {"domain": "chitter.xyz"}, "instance_statuses":
+      {"domain": "chitter.xyz"}, "instance_follows": {"domain": "chitter.xyz"}, "instance_followers":
+      {"domain": "chitter.xyz"}, "keys": ["active_users", "new_users", "opened_reports",
+      "resolved_reports", "instance_accounts", "instance_media_attachments", "instance_reports",
+      "instance_statuses", "instance_follows", "instance_followers"], "start_at":
+      "2020-10-04T21:00:00+00:00", "end_at": "2020-10-09T21:00:00+00:00"}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Bearer __MASTODON_PY_TEST_ACCESS_TOKEN_2
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '587'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - tests/v311
+    method: POST
+    uri: http://localhost:3000/api/v1/admin/measures
+  response:
+    body:
+      string: '[{"key":"active_users","unit":null,"total":"0","previous_total":"0","data":[{"date":"2020-10-04T00:00:00Z","value":"0"},{"date":"2020-10-05T00:00:00Z","value":"0"},{"date":"2020-10-06T00:00:00Z","value":"0"},{"date":"2020-10-07T00:00:00Z","value":"0"},{"date":"2020-10-08T00:00:00Z","value":"0"}]},{"key":"new_users","unit":null,"total":"0","previous_total":"0","data":[{"date":"2020-10-04T00:00:00.000+00:00","value":"0"},{"date":"2020-10-05T00:00:00.000+00:00","value":"0"},{"date":"2020-10-06T00:00:00.000+00:00","value":"0"},{"date":"2020-10-07T00:00:00.000+00:00","value":"0"},{"date":"2020-10-08T00:00:00.000+00:00","value":"0"},{"date":"2020-10-09T00:00:00.000+00:00","value":"0"}]},{"key":"opened_reports","unit":null,"total":"0","previous_total":"0","data":[{"date":"2020-10-04T00:00:00.000+00:00","value":"0"},{"date":"2020-10-05T00:00:00.000+00:00","value":"0"},{"date":"2020-10-06T00:00:00.000+00:00","value":"0"},{"date":"2020-10-07T00:00:00.000+00:00","value":"0"},{"date":"2020-10-08T00:00:00.000+00:00","value":"0"},{"date":"2020-10-09T00:00:00.000+00:00","value":"0"}]},{"key":"resolved_reports","unit":null,"total":"0","previous_total":"0","data":[{"date":"2020-10-04T00:00:00.000+00:00","value":"0"},{"date":"2020-10-05T00:00:00.000+00:00","value":"0"},{"date":"2020-10-06T00:00:00.000+00:00","value":"0"},{"date":"2020-10-07T00:00:00.000+00:00","value":"0"},{"date":"2020-10-08T00:00:00.000+00:00","value":"0"},{"date":"2020-10-09T00:00:00.000+00:00","value":"0"}]},{"key":"instance_accounts","unit":null,"total":"0","data":[{"date":"2020-10-04T00:00:00.000+00:00","value":"0"},{"date":"2020-10-05T00:00:00.000+00:00","value":"0"},{"date":"2020-10-06T00:00:00.000+00:00","value":"0"},{"date":"2020-10-07T00:00:00.000+00:00","value":"0"},{"date":"2020-10-08T00:00:00.000+00:00","value":"0"},{"date":"2020-10-09T00:00:00.000+00:00","value":"0"}]},{"key":"instance_media_attachments","unit":"bytes","total":"0","human_value":"0
+        Bytes","data":[{"date":"2020-10-04T00:00:00.000+00:00","value":""},{"date":"2020-10-05T00:00:00.000+00:00","value":""},{"date":"2020-10-06T00:00:00.000+00:00","value":""},{"date":"2020-10-07T00:00:00.000+00:00","value":""},{"date":"2020-10-08T00:00:00.000+00:00","value":""},{"date":"2020-10-09T00:00:00.000+00:00","value":""}]},{"key":"instance_reports","unit":null,"total":"0","data":[{"date":"2020-10-04T00:00:00.000+00:00","value":"0"},{"date":"2020-10-05T00:00:00.000+00:00","value":"0"},{"date":"2020-10-06T00:00:00.000+00:00","value":"0"},{"date":"2020-10-07T00:00:00.000+00:00","value":"0"},{"date":"2020-10-08T00:00:00.000+00:00","value":"0"},{"date":"2020-10-09T00:00:00.000+00:00","value":"0"}]},{"key":"instance_statuses","unit":null,"total":"0","data":[{"date":"2020-10-04T00:00:00.000+00:00","value":"0"},{"date":"2020-10-05T00:00:00.000+00:00","value":"0"},{"date":"2020-10-06T00:00:00.000+00:00","value":"0"},{"date":"2020-10-07T00:00:00.000+00:00","value":"0"},{"date":"2020-10-08T00:00:00.000+00:00","value":"0"},{"date":"2020-10-09T00:00:00.000+00:00","value":"0"}]},{"key":"instance_follows","unit":null,"total":"0","data":[{"date":"2020-10-04T00:00:00.000+00:00","value":"0"},{"date":"2020-10-05T00:00:00.000+00:00","value":"0"},{"date":"2020-10-06T00:00:00.000+00:00","value":"0"},{"date":"2020-10-07T00:00:00.000+00:00","value":"0"},{"date":"2020-10-08T00:00:00.000+00:00","value":"0"},{"date":"2020-10-09T00:00:00.000+00:00","value":"0"}]},{"key":"instance_followers","unit":null,"total":"0","data":[{"date":"2020-10-04T00:00:00.000+00:00","value":"0"},{"date":"2020-10-05T00:00:00.000+00:00","value":"0"},{"date":"2020-10-06T00:00:00.000+00:00","value":"0"},{"date":"2020-10-07T00:00:00.000+00:00","value":"0"},{"date":"2020-10-08T00:00:00.000+00:00","value":"0"},{"date":"2020-10-09T00:00:00.000+00:00","value":"0"}]}]'
+    headers:
+      Cache-Control:
+      - no-store
+      Content-Security-Policy:
+      - 'base-uri ''none''; default-src ''none''; frame-ancestors ''none''; font-src
+        ''self'' http://localhost:3000; img-src ''self'' https: data: blob: http://localhost:3000;
+        style-src ''self'' http://localhost:3000 ''nonce-VvHLwxoaEjliqLkIaS5XTA=='';
+        media-src ''self'' https: data: http://localhost:3000; frame-src ''self''
+        https:; manifest-src ''self'' http://localhost:3000; connect-src ''self''
+        data: blob: http://localhost:3000 http://localhost:3000 ws://localhost:4000
+        ws://localhost:3035 http://localhost:3035; script-src ''self'' ''unsafe-inline''
+        ''unsafe-eval'' http://localhost:3000; child-src ''self'' blob: http://localhost:3000;
+        worker-src ''self'' blob: http://localhost:3000'
+      Content-Type:
+      - application/json; charset=utf-8
+      ETag:
+      - W/"7a14cdc98ebdc4f4ee6517f7b12be48b"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - c8d76939-c628-4c9a-9c9b-76694490a6c7
+      X-Runtime:
+      - '0.698124'
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"instance_accounts": {"domain": "chitter.xyz"}, "instance_languages":
+      {"domain": "chitter.xyz"}, "keys": ["languages", "sources", "servers", "space_usage",
+      "instance_accounts", "instance_languages"], "limit": 3, "start_at": "2020-10-04T21:00:00+00:00",
+      "end_at": "2020-10-09T21:00:00+00:00"}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Bearer __MASTODON_PY_TEST_ACCESS_TOKEN_2
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '292'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - tests/v311
+    method: POST
+    uri: http://localhost:3000/api/v1/admin/dimensions
+  response:
+    body:
+      string: '[{"key":"languages","data":[]},{"key":"sources","data":[]},{"key":"servers","data":[]},{"key":"space_usage","data":[{"key":"postgresql","human_key":"PostgreSQL","value":"17642287","unit":"bytes","human_value":"16.8
+        MB"},{"key":"redis","human_key":"Redis","value":"1226312","unit":"bytes","human_value":"1.17
+        MB"},{"key":"media","human_key":"Media storage","value":"218330","unit":"bytes","human_value":"213
+        KB"}]},{"key":"instance_accounts","data":[]},{"key":"instance_languages","data":[]}]'
+    headers:
+      Cache-Control:
+      - no-store
+      Content-Security-Policy:
+      - 'base-uri ''none''; default-src ''none''; frame-ancestors ''none''; font-src
+        ''self'' http://localhost:3000; img-src ''self'' https: data: blob: http://localhost:3000;
+        style-src ''self'' http://localhost:3000 ''nonce-lex85UQwL+DgnXi7buR5xQ=='';
+        media-src ''self'' https: data: http://localhost:3000; frame-src ''self''
+        https:; manifest-src ''self'' http://localhost:3000; connect-src ''self''
+        data: blob: http://localhost:3000 http://localhost:3000 ws://localhost:4000
+        ws://localhost:3035 http://localhost:3035; script-src ''self'' ''unsafe-inline''
+        ''unsafe-eval'' http://localhost:3000; child-src ''self'' blob: http://localhost:3000;
+        worker-src ''self'' blob: http://localhost:3000'
+      Content-Type:
+      - application/json; charset=utf-8
+      ETag:
+      - W/"369fb98a058ca99fa8ef686cd5cb5628"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - 875834c3-0bc9-4756-a76f-786578ade1ce
+      X-Runtime:
+      - '0.030907'
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+- request:
+    body: start_at=2020-09-29T21%3A00%3A00%2B00%3A00&end_at=2020-10-09T21%3A00%3A00%2B00%3A00&frequency=day
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Authorization:
+      - Bearer __MASTODON_PY_TEST_ACCESS_TOKEN_2
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '97'
+      Content-Type:
+      - application/x-www-form-urlencoded
+      User-Agent:
+      - tests/v311
+    method: POST
+    uri: http://localhost:3000/api/v1/admin/retention
+  response:
+    body:
+      string: '[{"period":"2020-09-29T00:00:00+00:00","frequency":"day","data":[{"date":"2020-09-29T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-09-30T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-01T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-02T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-03T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-04T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-05T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-06T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-07T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-08T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-09T00:00:00+00:00","rate":0.0,"value":"0"}]},{"period":"2020-09-30T00:00:00+00:00","frequency":"day","data":[{"date":"2020-09-30T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-01T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-02T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-03T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-04T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-05T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-06T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-07T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-08T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-09T00:00:00+00:00","rate":0.0,"value":"0"}]},{"period":"2020-10-01T00:00:00+00:00","frequency":"day","data":[{"date":"2020-10-01T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-02T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-03T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-04T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-05T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-06T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-07T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-08T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-09T00:00:00+00:00","rate":0.0,"value":"0"}]},{"period":"2020-10-02T00:00:00+00:00","frequency":"day","data":[{"date":"2020-10-02T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-03T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-04T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-05T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-06T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-07T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-08T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-09T00:00:00+00:00","rate":0.0,"value":"0"}]},{"period":"2020-10-03T00:00:00+00:00","frequency":"day","data":[{"date":"2020-10-03T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-04T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-05T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-06T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-07T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-08T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-09T00:00:00+00:00","rate":0.0,"value":"0"}]},{"period":"2020-10-04T00:00:00+00:00","frequency":"day","data":[{"date":"2020-10-04T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-05T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-06T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-07T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-08T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-09T00:00:00+00:00","rate":0.0,"value":"0"}]},{"period":"2020-10-05T00:00:00+00:00","frequency":"day","data":[{"date":"2020-10-05T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-06T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-07T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-08T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-09T00:00:00+00:00","rate":0.0,"value":"0"}]},{"period":"2020-10-06T00:00:00+00:00","frequency":"day","data":[{"date":"2020-10-06T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-07T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-08T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-09T00:00:00+00:00","rate":0.0,"value":"0"}]},{"period":"2020-10-07T00:00:00+00:00","frequency":"day","data":[{"date":"2020-10-07T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-08T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-09T00:00:00+00:00","rate":0.0,"value":"0"}]},{"period":"2020-10-08T00:00:00+00:00","frequency":"day","data":[{"date":"2020-10-08T00:00:00+00:00","rate":0.0,"value":"0"},{"date":"2020-10-09T00:00:00+00:00","rate":0.0,"value":"0"}]},{"period":"2020-10-09T00:00:00+00:00","frequency":"day","data":[{"date":"2020-10-09T00:00:00+00:00","rate":0.0,"value":"0"}]}]'
+    headers:
+      Cache-Control:
+      - no-store
+      Content-Security-Policy:
+      - 'base-uri ''none''; default-src ''none''; frame-ancestors ''none''; font-src
+        ''self'' http://localhost:3000; img-src ''self'' https: data: blob: http://localhost:3000;
+        style-src ''self'' http://localhost:3000 ''nonce-lWySq1tTzeJhLeDr9Ig89g=='';
+        media-src ''self'' https: data: http://localhost:3000; frame-src ''self''
+        https:; manifest-src ''self'' http://localhost:3000; connect-src ''self''
+        data: blob: http://localhost:3000 http://localhost:3000 ws://localhost:4000
+        ws://localhost:3035 http://localhost:3035; script-src ''self'' ''unsafe-inline''
+        ''unsafe-eval'' http://localhost:3000; child-src ''self'' blob: http://localhost:3000;
+        worker-src ''self'' blob: http://localhost:3000'
+      Content-Type:
+      - application/json; charset=utf-8
+      ETag:
+      - W/"7c0b9d5d1e0b7ed4fc44340469c598c1"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept, Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - 8aa3a224-8df0-4cca-98a9-82188c863aa0
+      X-Runtime:
+      - '0.184096'
+      X-XSS-Protection:
+      - 1; mode=block
+    status:
+      code: 200
+      message: OK
+version: 1

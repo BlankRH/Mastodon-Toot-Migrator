@@ -1,0 +1,7 @@
+{
+  "email": "example@gmail.com",
+  "password": "examplePassword",
+  "api_base_url": "https://youinstance.site",
+  "app_name": "toot_migrator",
+  "archive_path": "path/to/archive"
+}
