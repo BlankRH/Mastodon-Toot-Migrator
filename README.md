@@ -4,6 +4,8 @@ This is a tool to assist your migration to a new Mastodon instance!
 
 Currently the instance support exporting your toots, but not importing them. This tool provides a way to upload your toots to your account. Supports attachments.
 
+Any suggestions or contribution is welcomed!
+
 Example format:
 
 [2000-01-01T00:00:00Z]
