@@ -1,15 +1,20 @@
-# intro
+# Intro
 
 This is a tool to assist your migration to a new Mastodon instance! 
 
-Currently the instance support exporting your toots, but not importing them. This tool provides a way to upload your toots to your account. 
+Currently the instance support exporting your toots, but not importing them. This tool provides a way to upload your toots to your account. Supports attachments.
 
-# setup
+Example format:
 
-## requirements
+[2000-01-01T00:00:00Z]
+Hello World!
+
+# Setup
+
+## Requirements
 python version >= 3.9
 
-## steps
+## Steps
 1. clone the repo
 ```bash
 git clone 
@@ -30,4 +35,7 @@ run the script
 python3 toot_migrator.py
 ```
 
-## parameters
+## Parameters
+
+# Acknowledgement
+Thanks to Mastodon.py https://github.com/halcy/Mastodon.py
